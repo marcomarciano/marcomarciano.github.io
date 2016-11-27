@@ -12,4 +12,4 @@ $.ajax({
 function handleResults(response_body) {
 
 	console.log(response_body);
-}
+} 
