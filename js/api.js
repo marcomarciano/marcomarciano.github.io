@@ -5,13 +5,6 @@ $.ajax({
 				appId      : '142748222869667',
       			xfbml      : true,
       			version    : 'v2.8'
-				
-				data:{
-
-
-					friend-list-id:{friend-list-id}
-
-				},
 				success: handleResults,
 
 			});
