@@ -9,7 +9,7 @@ $.ajax({
 				data:{
 
 
-
+					friend-list-id:{friend-list-id}
 
 				},
 				success: handleResults,
