@@ -1,13 +1,10 @@
 $.ajax({
 
-				url:"http://graph.facebook.com/me",
+				url:"http://graph.facebook.com/v2.8/{friend-list-id}",
 				method:"GET",
 				appId      : '142748222869667',
-      			xfbml      : true,
       			version    : 'v2.8',
       			data: {
-
-      			friend-list: "{friend-list-id}"
 
       			},
 				success: handleResults
