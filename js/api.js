@@ -4,7 +4,12 @@ $.ajax({
 				method:"GET",
 				appId      : '142748222869667',
       			xfbml      : true,
-      			version    : 'v2.8'
+      			version    : 'v2.8',
+      			data: {
+
+      			friend-list: "{friend-list-id}"
+
+      			},
 				success: handleResults
 
 			});
