@@ -5,7 +5,7 @@ $.ajax({
 				appId      : '142748222869667',
       			xfbml      : true,
       			version    : 'v2.8'
-				success: handleResults,
+				success: handleResults
 
 			});
 
